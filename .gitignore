@@ -1,0 +1,4 @@
+node_modules
+build
+src/site/_includes/css/*
+.DS_Store
