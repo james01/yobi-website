@@ -1,0 +1,64 @@
+@use 'media';
+
+:root {
+  --gray-1: #1e252c;
+  --gray-2: #29323d;
+  --gray-3: #7d858c;
+  --gray-4: #aeb3b7;
+  --gray-5: #bec2c6;
+  --gray-6: #d4d7da;
+  --gray-7: #ededed;
+  --gray-8: #f4f4f4;
+  --gray-9: #fbfbfc;
+  --red: #fb3449;
+  --green: #1bcca8;
+
+  --hair: 1px;
+  --margin: 16px;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    --hair: 0.5px;
+  }
+
+  @include media.sm {
+    --margin: 24px;
+  }
+
+  @include media.md {
+    --margin: 32px;
+  }
+
+  @include media.lg {
+    --margin: 48px;
+  }
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis: none;
+  -webkit-text-size-adjust: 100%;
+  image-rendering: optimizeQuality;
+  min-width: 320px;
+}
+
+body {
+  color: var(--gray-1);
+  font-size: 1.0625rem;
+}
+
+button {
+  cursor: pointer;
+}
