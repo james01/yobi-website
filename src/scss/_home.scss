@@ -54,15 +54,28 @@
 
   &__profiles-container {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     margin-top: 48px;
   }
 
   &__profile {
     img {
-      $width: 176px;
-      width: $width;
-      border-radius: $width/2;
+      --width: 112px;
+      width: var(--width);
+      border-radius: calc(var(--width) / 2);
+
+      @include media.sm {
+        --width: 128px;
+      }
+
+      @include media.md {
+        --width: 144px;
+      }
+
+      @include media.lg {
+        --width: 176px;
+      }
     }
 
     figcaption {
