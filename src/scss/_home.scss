@@ -1,0 +1,47 @@
+.stay-informed {
+  background-color: var(--gray-1);
+  color: white;
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 92px;
+
+  h2 {
+    margin-bottom: 12px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  form {
+    $border-radius: 4px;
+
+    input {
+      border: none;
+      background-color: var(--gray-2);
+      color: white;
+      font-size: inherit;
+      font-weight: 400;
+      padding: 0.875rem 1rem;
+      border-radius: $border-radius;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+
+      &::placeholder {
+        color: white;
+      }
+    }
+
+    button {
+      background-color: var(--red);
+      color: white;
+      font-size: inherit;
+      font-weight: 500;
+      border: none;
+      padding: 0.875rem 1rem;
+      border-radius: $border-radius;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
