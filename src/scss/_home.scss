@@ -71,6 +71,22 @@
     }
   }
 }
+
+.our-commitment {
+  padding-top: 96px;
+  padding-bottom: 112px;
+
+  h2 {
+    margin-bottom: 32px;
+  }
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .stay-informed {
   background-color: var(--gray-1);
   color: white;
