@@ -142,21 +142,22 @@
   background-color: var(--gray-1);
   color: white;
   text-align: center;
-  padding-top: 72px;
-  padding-bottom: 92px;
+  padding-top: 64px;
+  padding-bottom: 88px;
 
   h2 {
-    margin-bottom: 12px;
+    margin-bottom: 28px;
   }
 
   p {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   form {
     $border-radius: 4px;
 
     input {
+      width: 336px;
       border: none;
       background-color: var(--gray-2);
       color: white;
