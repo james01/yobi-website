@@ -43,6 +43,44 @@
   }
 }
 
+.privacy-redefined {
+  padding-top: 128px;
+  padding-bottom: 160px;
+  border-top: 1px solid var(--gray-7);
+
+  &__container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    @include media.lg {
+      flex-direction: row;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    margin-bottom: 64px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    @include media.lg {
+      margin-bottom: 0;
+      justify-content: center;
+    }
+  }
+
+  &__heading {
+    flex-basis: 50%;
+
+    h2 {
+      margin-bottom: 16px;
+    }
+  }
+}
+
 .our-founders {
   background-color: var(--gray-9);
   padding-top: 64px;
