@@ -32,10 +32,6 @@
     flex-basis: 50%;
     padding-top: 144px;
     padding-bottom: 272px;
-
-    h1 {
-      margin-bottom: 32px;
-    }
   }
 
   &__img {
@@ -44,8 +40,8 @@
 }
 
 .privacy-redefined {
-  padding-top: 128px;
-  padding-bottom: 160px;
+  padding-top: 80px;
+  padding-bottom: 96px;
   border-top: 1px solid var(--gray-7);
 
   &__container {
@@ -60,7 +56,7 @@
 
   &__img {
     width: 100%;
-    margin-bottom: 64px;
+    margin-bottom: 40px;
     flex-basis: 50%;
     display: flex;
     justify-content: flex-start;
@@ -74,10 +70,6 @@
 
   &__heading {
     flex-basis: 50%;
-
-    h2 {
-      margin-bottom: 16px;
-    }
   }
 }
 
@@ -142,12 +134,8 @@
 }
 
 .our-commitment {
-  padding-top: 96px;
-  padding-bottom: 112px;
-
-  h2 {
-    margin-bottom: 32px;
-  }
+  padding-top: 80px;
+  padding-bottom: 96px;
 }
 
 .input-group {
@@ -163,12 +151,8 @@
   padding-top: 64px;
   padding-bottom: 88px;
 
-  h2 {
-    margin-bottom: 28px;
-  }
-
   p {
-    margin-bottom: 40px;
+    margin-bottom: 32px;
   }
 
   form {
