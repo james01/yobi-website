@@ -145,10 +145,11 @@
 }
 
 .footer {
-  padding-top: 128px;
+  background-color: var(--gray-1);
+  padding-top: 64px;
 
   &__notes {
-    color: var(--gray-3);
+    color: var(--gray-4);
     font-size: 0.75rem;
     margin-bottom: 28px;
 
@@ -163,9 +164,9 @@
   }
 
   &__content {
-    border-top: 1px solid var(--gray-7);
+    border-top: 1px solid var(--gray-2);
     padding-top: 24px;
-    padding-bottom: 64px;
+    padding-bottom: 48px;
     display: flex;
     flex-wrap: nowrap;
 
@@ -185,6 +186,7 @@
       }
 
       h4 {
+        color: #fff;
         font-size: 1rem;
         font-weight: 600;
         text-transform: lowercase;
@@ -199,7 +201,7 @@
       li {
         font-size: 1rem;
         font-weight: 400;
-        color: var(--gray-3);
+        color: var(--gray-4);
         margin-bottom: 8px;
 
         &:last-child {
@@ -227,12 +229,12 @@
   }
 
   &__notice {
-    color: var(--gray-4);
+    color: var(--gray-3);
     font-size: 0.875rem;
   }
 
   &__logo {
-    height: 32px;
-    transform: translateY(8px);
+    height: 28px;
+    transform: translateY(6px);
   }
 }
