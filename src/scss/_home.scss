@@ -146,7 +146,7 @@
 
 .footer {
   background-color: var(--gray-1);
-  padding-top: 64px;
+  padding-top: 32px;
 
   &__notes {
     color: var(--gray-4);
@@ -170,6 +170,16 @@
     display: flex;
     flex-wrap: nowrap;
 
+    &__header {
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      margin-bottom: 12px;
+      line-height: initial;
+    }
+
     &__column {
       margin-right: 48px;
 
@@ -183,15 +193,6 @@
 
       &:last-child {
         margin-right: 0;
-      }
-
-      h4 {
-        color: #fff;
-        font-size: 1rem;
-        font-weight: 600;
-        text-transform: lowercase;
-        font-variant: small-caps;
-        margin-bottom: 12px;
       }
 
       ul {
