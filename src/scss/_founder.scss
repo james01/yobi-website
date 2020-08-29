@@ -1,0 +1,32 @@
+.founder {
+  &__container {
+    padding-top: 80px;
+    padding-bottom: 128px;
+  }
+
+  &__subtitle {
+    color: var(--gray-3);
+    font-size: 1.0625rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: lowercase;
+    font-variant: small-caps;
+  }
+
+  &__title {
+    color: var(--gray-3);
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  &__img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin: 64px auto 40px;
+    display: block;
+  }
+}

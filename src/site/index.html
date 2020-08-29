@@ -8,14 +8,10 @@
       content="Yobi provides an ethical data alternative, enabling businesses to compete with big tech’s internal capabilities without the risk of managing third-party data."
     />
     <title>Yobi</title>
-    <link rel="stylesheet" href="_includes/css/main.css" />
+    <link rel="stylesheet" href="/_includes/css/main.css" />
   </head>
   <body>
-    <header class="header pad-viewport">
-      <div class="wrapper wrapper--xl">
-        <img class="header__logo" src="images/yobi_logo_light.svg" alt="Yobi logo" />
-      </div>
-    </header>
+    {% include header.html %}
     <main>
       <div class="playing-field pad-viewport">
         <div class="playing-field__container wrapper wrapper--xl">
@@ -40,55 +36,55 @@
             <div class="unified-consumer__graphic__column">
               <figure class="unified-consumer__label">
                 <div class="unified-consumer__label__glyph">
-                  <img src="images/web_browsing.svg" alt />
+                  <img src="/images/web_browsing.svg" alt />
                 </div>
                 <figcaption>Web Browsing</figcaption>
               </figure>
               <figure class="unified-consumer__label">
                 <div class="unified-consumer__label__glyph">
-                  <img src="images/automobile.svg" alt />
+                  <img src="/images/automobile.svg" alt />
                 </div>
                 <figcaption>Automobile</figcaption>
               </figure>
               <figure class="unified-consumer__label">
                 <div class="unified-consumer__label__glyph">
-                  <img src="images/content_consumption.svg" alt />
+                  <img src="/images/content_consumption.svg" alt />
                 </div>
                 <figcaption>Content Consumption</figcaption>
               </figure>
             </div>
 
             <div class="unified-consumer__graphic__column">
-              <img class="unified-consumer__curly-brace" src="images/curly_brace.svg" alt />
+              <img class="unified-consumer__curly-brace" src="/images/curly_brace.svg" alt />
             </div>
 
             <div class="unified-consumer__graphic__column">
               <figure class="unified-consumer__label unified-consumer__label--identity">
-                <img src="images/identity_user.svg" alt />
+                <img src="/images/identity_user.svg" alt />
                 <figcaption>Identity / Demographics</figcaption>
               </figure>
             </div>
 
             <div class="unified-consumer__graphic__column">
-              <img class="unified-consumer__curly-brace unified-consumer__curly-brace--flipped" src="images/curly_brace.svg" alt />
+              <img class="unified-consumer__curly-brace unified-consumer__curly-brace--flipped" src="/images/curly_brace.svg" alt />
             </div>
 
             <div class="unified-consumer__graphic__column">
               <figure class="unified-consumer__label">
                 <div class="unified-consumer__label__glyph">
-                  <img src="images/purchase.svg" alt />
+                  <img src="/images/purchase.svg" alt />
                 </div>
                 <figcaption>Purchase</figcaption>
               </figure>
               <figure class="unified-consumer__label">
                 <div class="unified-consumer__label__glyph">
-                  <img src="images/location.svg" alt />
+                  <img src="/images/location.svg" alt />
                 </div>
                 <figcaption>Location</figcaption>
               </figure>
               <figure class="unified-consumer__label">
                 <div class="unified-consumer__label__glyph">
-                  <img src="images/app_session.svg" alt />
+                  <img src="/images/app_session.svg" alt />
                 </div>
                 <figcaption>App Session / Carrier</figcaption>
               </figure>
@@ -99,7 +95,7 @@
       <div class="privacy-redefined pad-viewport">
         <div class="privacy-redefined__container wrapper wrapper--xl">
           <div class="privacy-redefined__img wrapper wrapper--md">
-            <img src="images/privacy_lock.svg" alt="Abstract lock representing privacy" />
+            <img src="/images/privacy_lock.svg" alt="Abstract lock representing privacy" />
           </div>
           <div class="privacy-redefined__heading wrapper wrapper--md">
             <h2>Privacy Redefined</h2>
@@ -116,24 +112,32 @@
           <h3>Our Founders</h3>
           <div class="our-founders__profiles-container">
             <div class="our-founders__profiles-pair">
-              <figure class="our-founders__profile">
-                <img src="images/bill_wise.jpg" alt="Bill Wise headshot" />
-                <figcaption>Bill Wise</figcaption>
-              </figure>
-              <figure class="our-founders__profile">
-                <img src="images/max_snow.jpg" alt="Max Snow headshot" />
-                <figcaption>Max Snow</figcaption>
-              </figure>
+              <a href="/bill-wise">
+                <figure class="our-founders__profile">
+                  <img src="/images/bill_wise.jpg" alt="Bill Wise headshot" />
+                  <figcaption>Bill Wise</figcaption>
+                </figure>
+              </a>
+              <a href="/max-snow">
+                <figure class="our-founders__profile">
+                  <img src="/images/max_snow.jpg" alt="Max Snow headshot" />
+                  <figcaption>Max Snow</figcaption>
+                </figure>
+              </a>
             </div>
             <div class="our-founders__profiles-pair">
-              <figure class="our-founders__profile">
-                <img src="images/tom_griffiths.jpg" alt="Tom Griffiths headshot" />
-                <figcaption>Tom Griffiths</figcaption>
-              </figure>
-              <figure class="our-founders__profile">
-                <img src="images/michael_donovan.jpg" alt="Michael Donovan headshot" />
-                <figcaption>Michael Donovan</figcaption>
-              </figure>
+              <a href="/tom-griffiths">
+                <figure class="our-founders__profile">
+                  <img src="/images/tom_griffiths.jpg" alt="Tom Griffiths headshot" />
+                  <figcaption>Tom Griffiths</figcaption>
+                </figure>
+              </a>
+              <a href="/michael-donovan">
+                <figure class="our-founders__profile">
+                  <img src="/images/michael_donovan.jpg" alt="Michael Donovan headshot" />
+                  <figcaption>Michael Donovan</figcaption>
+                </figure>
+              </a>
             </div>
           </div>
         </div>
@@ -155,30 +159,12 @@
         </div>
       </div>
     </main>
-    <footer class="footer pad-viewport">
-      <div class="wrapper wrapper--xl">
-        <div class="footer__notes">
-          <a href="https://www.freepik.com/vectors/people">People vector created by studiogstock - www.freepik.com</a>
-        </div>
-        <div class="footer__content">
-          <div class="footer__content__column">
-            <p class="footer__content__header">Location</p>
-            <ul>
-              <li>In the clouds</li>
-            </ul>
-          </div>
-          <div class="footer__content__column">
-            <p class="footer__content__header">Contact Us</p>
-            <ul>
-              <li><a href="mailto:info@yobi.ventures">info@yobi.ventures</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer__bottom">
-          <p class="footer__notice">© 2020 Yobi Ventures</p>
-          <img class="footer__logo" src="images/yobi_logo_light.svg" alt="Yobi logo" />
-        </div>
-      </div>
-    </footer>
+    {% capture footer_notes %}
+    <div class="footer__notes">
+      <a href="https://www.freepik.com/vectors/people">People vector created by studiogstock - www.freepik.com</a>
+    </div>
+    {% endcapture %}
+    <!-- prettier-ignore -->
+    {% include footer.html, footer_notes: footer_notes %}
   </body>
 </html>

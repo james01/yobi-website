@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>{{ founderName }} | Yobi</title>
+    <link rel="stylesheet" href="/_includes/css/main.css" />
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      <div class="founder__container pad-viewport">
+        <div class="wrapper wrapper--md">
+          <h2 class="founder__subtitle">Founder</h2>
+          <h1 class="founder__title">{{ founderName }}</h1>
+          <img class="founder__img" src="{{ imagePath }}" />
+          {{ content }}
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
