@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Website for Yobi Ventures.",
   "scripts": {
-    "start": "gulp build && (gulp watch & eleventy --serve)"
+    "start": "gulp build && (gulp watch & eleventy --serve)",
+    "optimize-images": "gulp optimize-images"
   },
   "author": "James Randolph",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "fibers": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "sass": "^1.26.10"
   }
