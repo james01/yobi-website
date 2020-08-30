@@ -4,6 +4,7 @@
   "description": "Website for Yobi Ventures.",
   "scripts": {
     "start": "gulp build && (gulp watch & eleventy --serve)",
+    "build": "gulp build && eleventy",
     "optimize-images": "gulp optimize-images"
   },
   "author": "James Randolph",
