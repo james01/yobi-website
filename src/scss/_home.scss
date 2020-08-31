@@ -26,6 +26,10 @@
     flex-basis: 50%;
 
     @include media.sm {
+      padding-top: 96px;
+    }
+
+    @include media.lg {
       padding-top: 128px;
     }
   }
@@ -38,7 +42,14 @@
     align-items: flex-start;
 
     @include media.sm {
-      padding-top: 128px;
+      padding-left: 64px;
+      padding-right: 64px;
+      padding-top: 96px;
+    }
+
+    @include media.lg {
+      padding-top: 144px;
+      padding-right: 0;
     }
 
     img {
